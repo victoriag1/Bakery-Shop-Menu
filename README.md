@@ -1,4 +1,5 @@
 # vg-phase-2-project
+VG Phase 2 Project
 Topic: Pastry Shop Application 
 
 Decription: 
