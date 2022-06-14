@@ -9,7 +9,6 @@ Visuals:
 2. An about section with the story of Vic's Pastries
 3. A cart with the pastries you want inside the cart with a delete button.
 
-
 User Deliverables: 
 1.The user will be able to swift through an assortment of pastries and add them to the cart
 2.The user can look up the items in their cart and be able to delete the items by pressing a delete button
