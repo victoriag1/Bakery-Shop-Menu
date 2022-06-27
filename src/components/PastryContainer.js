@@ -1,12 +1,15 @@
 import React, {useEffect, useState} from 'react'
+import PastryCard from './PastryCard'
+import PastryList from './PastryList'
 
 
-function PastryContainer() {
+
+function PastryContainer({storeName}) {
 
 const [pastries, setPastries]= useState([])
 
 useEffect(() => {
-fetch ("http://localhost:3000/pastries")
+fetch("http://localhost:3000/pastries")
 .then((res)=>res.json())
 .then((data)=>setPastries(data))
 }, [])
@@ -14,7 +17,10 @@ fetch ("http://localhost:3000/pastries")
 
   return (
     <div>
-
+       <h1>{storeName}</h1>
+        <PastryList pastries={pastries} storeName={storeName}/>
+        
+        
     </div>
   )
 }

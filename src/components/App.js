@@ -11,9 +11,8 @@ function App() {
         <Navbar/>
       <Switch>
         <Route path= "/pastries">
-          <PastryContainer/>
+          <PastryContainer storeName='Vic Pastries'/>
         </Route>
-
         <Route path="/pastries/new">
           <ReviewForm/>
         </Route>

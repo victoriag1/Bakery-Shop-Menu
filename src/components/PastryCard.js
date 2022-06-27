@@ -1,8 +1,12 @@
 import React from 'react'
 
-function PastryCard() {
+function PastryCard({pastry}) {
   return (
-    <div>PastryCard</div>
+    <div>
+    <h3>{pastry.name}</h3>
+    <img src={pastry.image} />
+    
+    </div>
   )
 }
 export default PastryCard
