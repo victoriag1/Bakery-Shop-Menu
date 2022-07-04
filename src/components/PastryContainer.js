@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import PastryCard from './PastryCard'
 import PastryList from './PastryList'
-
 
 
 function PastryContainer({storeName}) {

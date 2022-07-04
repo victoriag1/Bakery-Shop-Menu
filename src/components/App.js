@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Navbar from './Navbar';
 import PastryContainer from './PastryContainer';
 import ReviewForm from './ReviewForm';
+import About from './About'
 
 function App() {
   return (
@@ -13,13 +14,14 @@ function App() {
         <Route path= "/pastries">
           <PastryContainer storeName='Vic Pastries'/>
         </Route>
-        <Route path="/pastries/new">
+
+        <Route path="/reviews">
           <ReviewForm/>
         </Route>
 
-        {/* <Route path="/cart">
-          <ItemCart/>
-        </Route> */}
+        <Route path="/about">
+          <About/>
+        </Route> 
       </Switch>
       </Router>
     </div>

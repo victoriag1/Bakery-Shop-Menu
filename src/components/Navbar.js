@@ -1,14 +1,17 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import './navbar.css'
 
 const style= {
-    width:"60%",
+    width:"100%",
+    height:"90px",
     margin:"5% 0 1%",
-    padding:"1em",
+    padding:"5rem",
     textDecoration:"none",
-    color:"white",
+    color:"black",
     backgroundColor:"#f5cac3",
-    fontWeight:"bold"
+    fontWeight:"bold",
+    gap:"2rem",
 }
 
 function Navbar() {
