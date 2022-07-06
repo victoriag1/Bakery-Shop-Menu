@@ -15,13 +15,13 @@ function App() {
           <PastryContainer storeName='Vic Pastries'/>
         </Route>
 
-        <Route path="/reviews">
-          <ReviewForm/>
-        </Route>
-
         <Route path="/about">
           <About/>
         </Route> 
+
+        <Route path="/reviews">
+          <ReviewForm/>
+        </Route>
       </Switch>
       </Router>
     </div>

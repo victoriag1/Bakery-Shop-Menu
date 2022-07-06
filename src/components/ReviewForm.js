@@ -3,7 +3,7 @@ import React from 'react'
 
  function ReviewForm() {
   return (
-    <div style={{}}>
+    <div >
       <input type= "text" placeholder="submit review"></input>
     </div>
   )
