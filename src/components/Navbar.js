@@ -45,7 +45,7 @@ function Navbar() {
         }
             exact 
             style={style}
-            to="/pastries/new"
+            to="/reviews"
         >Reviews</NavLink>
     </div>
   )
