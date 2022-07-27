@@ -1,47 +1,58 @@
 {
   "pastries": [
-
     {
-      "id":1,
+      "id": 1,
       "name": "Brownie",
-      "image":"https://www.thekitchenmagpie.com/wp-content/uploads/images/2009/11/TheBestChewyBrowniesRecipe1-1.jpg",
+      "image": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2009/11/TheBestChewyBrowniesRecipe1-1.jpg",
       "price": "$3.00"
     },
     {
-      "id":2,
-      "name":"Muffin",
-      "image":"https://bakerbynature.com/wp-content/uploads/2011/05/Blueberry-Muffins-1-of-1.jpg",
+      "id": 2,
+      "name": "Muffin",
+      "image": "https://bakerbynature.com/wp-content/uploads/2011/05/Blueberry-Muffins-1-of-1.jpg",
       "price": "$3.50"
     },
     {
-      "id":3,
-      "name":"Tart",
-      "image":"https://www.abakingjourney.com/wp-content/uploads/2022/04/Mini-Fruit-Tarts-Feature.jpg",
+      "id": 3,
+      "name": "Tart",
+      "image": "https://www.abakingjourney.com/wp-content/uploads/2022/04/Mini-Fruit-Tarts-Feature.jpg",
       "price": "$4.00"
     },
     {
-      "id":4,
-      "name":"Macaroon",
-      "image":"https://sugargeekshow.com/wp-content/uploads/2022/02/pistachio_macaron-2.jpg",
+      "id": 4,
+      "name": "Macaroon",
+      "image": "https://sugargeekshow.com/wp-content/uploads/2022/02/pistachio_macaron-2.jpg",
       "price": "$2.00"
     },
     {
-      "id":5,
-      "name":"Tiramisu",
-      "image":"https://sallysbakingaddiction.com/wp-content/uploads/2019/06/homemade-tiramisu-2.jpg",
+      "id": 5,
+      "name": "Tiramisu",
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2019/06/homemade-tiramisu-2.jpg",
       "price": "$4.00"
     },
     {
-      "id":6,
+      "id": 6,
       "name": "Cake",
-      "image":"https://parsleyandicing.com/wp-content/uploads/2021/01/rosemary-olive-oil-cake-with-mascarpone-whipped-cream-and-lemons-slices-3.5-1-of-1.jpg",
+      "image": "https://parsleyandicing.com/wp-content/uploads/2021/01/rosemary-olive-oil-cake-with-mascarpone-whipped-cream-and-lemons-slices-3.5-1-of-1.jpg",
       "price": "$3.00"
     }
   ],
-
-  "cart": 
-    [
-      
-    ]
-  
+  "cart": [],
+  "Reviews": [
+    {
+      "id": 1,
+      "name": "James",
+      "review": "Really Good!"
+    },
+    {
+      "id": 2,
+      "name": "Nicole",
+      "review": "Every pastry was delicious. I come here every week! "
+    },
+    {
+      "id": 3,
+      "name": "Sam",
+      "review": "The prices and location of this place are perfect and a joy to go to."
+    }
+  ]
 }

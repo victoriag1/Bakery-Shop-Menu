@@ -1,11 +1,11 @@
 import React from 'react'
-import "./PastryCards.css"
 import CardMedia from '@mui/material/CardMedia';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography';
 
-
+// In this pastrycard component we are passing down the pastry attribute and using MaterialUI
+// to style our pastry cards and display each specific card. 
 function PastryCard({pastry}) {
   return (
     <Card sx={{ maxWidth: 345 }}> 
