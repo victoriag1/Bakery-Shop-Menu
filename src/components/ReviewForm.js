@@ -15,12 +15,11 @@ const [reviews, setReviews]= useState([]) //1.objects of existing reviews + new 
   .then((res)=> res.json())
   .then(data=> setReviews(data))
 }, [])
- 
-//3. 
-//function existingReviews(){
-  //const oldReviews=
-//}
-console.log(reviews)
+
+
+const displayReviews=()=>reviews.map((reviews)=> 
+ <p key={reviews.name}>{reviews.name}<br></br>{reviews.review}</p>
+ )
 
 // this is telling us "hey when you fetch handleSubmit, display newReview"
 const newReview =[name, review]
@@ -34,35 +33,32 @@ const handleSubmit= (e)=> {
     headers:{ "Content-Type": "application/json"},
     body: JSON.stringify(newReview)
   })
-
+  
 // the next two functions will decide what is going to be displayed in the name and review section
 // we are using state to render each review and name every time its input into the review section
-
-//displays name
 }
+//displays name
   function handleName(e){
+    e.preventDefault()
   setName(e.target.value)
-  e.preventDefault()
 }
  //displays review   
   function handleReview(e){
   setReview(e.target.value)
-  e.preventDefault()
   }
 // jsx in  which we are passing down the handle submit prop that will display our review
 // we are also adding the actual form with the submit button into the jsx
   return (
     <div>
-    <form onSubmit={handleSubmit}>
-      <label htmlFor='name'> Name: </label>
-      <input onChange={handleName} type="text" name ="name" id="name" value={name}></input> <br/> <br/>
-      <label htmlFor='Review'>Review: </label>
-      <input onChange={handleReview} type= "text" placeholder="Review..." id="reviewform" value={review}></input> <br/> <br/>
+        <h2 className='title'>Reviews</h2> <br/>
+    <form className='reviewForm' onSubmit={handleSubmit}>
+      <label htmlFor='name'> Name:</label>
+      <input onChange={handleName} type="text" name ="name" id="name" placeholder="Your Name Here .." value={name}></input> <br/> <br/>
+      <label htmlFor='Review'>Review:</label>
+      <input onChange={handleReview} type= "text" placeholder="Your Review Here..." id="reviewform" value={review}></input> <br/> <br/>
       <button type="submit">Submit Review</button> 
-      <h3>{}</h3>
-      <h2>{reviews}</h2>
     </form>
-    
+     <h2 className='oldReviews'>{displayReviews()}</h2>
     </div>
   )
   }

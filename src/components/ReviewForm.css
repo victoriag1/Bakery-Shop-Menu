@@ -1,4 +1,30 @@
-.ReviewForm {
+.reviewForm {
     text-align:center;
-    padding:center
+    padding:center;
+   font-family:'Courier New', Courier, monospace;
+   margin-left: auto;
+   margin-right: auto;
+}
+.title {
+    text-align:center;
+    padding:center;  
+    font-family:'Courier New', Courier, monospace
+}
+.name {
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    text-align:left;
+    padding-left: 10%;
+}
+.review {
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    text-align:left;
+    padding-left: 10%;
+}
+.oldReviews{
+    font-size: medium;
+    text-align:left;
+    padding-left: 10%;
+    font-family:'Courier New', Courier, monospace;
 }
