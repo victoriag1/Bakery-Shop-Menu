@@ -8,13 +8,13 @@
     },
     {
       "id": 2,
-      "name": "Muffin",
+      "name": "Berry Muffin",
       "image": "https://bakerbynature.com/wp-content/uploads/2011/05/Blueberry-Muffins-1-of-1.jpg",
       "price": "$3.50"
     },
     {
       "id": 3,
-      "name": "Tart",
+      "name": "Fruit Tart",
       "image": "https://www.abakingjourney.com/wp-content/uploads/2022/04/Mini-Fruit-Tarts-Feature.jpg",
       "price": "$4.00"
     },
@@ -32,9 +32,21 @@
     },
     {
       "id": 6,
-      "name": "Cake",
+      "name": "Lemon Cake",
       "image": "https://parsleyandicing.com/wp-content/uploads/2021/01/rosemary-olive-oil-cake-with-mascarpone-whipped-cream-and-lemons-slices-3.5-1-of-1.jpg",
       "price": "$3.00"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Croissant",
+      "image": "https://www.pastriesbyrandolph.com/wp-content/uploads/2019/03/chocolate-croissant.jpg",
+      "price": "$3.00"
+    },
+    {
+      "id": 8,
+      "name": "French Eclairs",
+      "image": "https://www.sweetandsavorybyshinee.com/wp-content/uploads/2021/07/Chocolate-Eclairs-3.jpg",
+      "price": "2.50"
     }
   ],
   "cart": [],

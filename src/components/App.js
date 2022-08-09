@@ -11,15 +11,15 @@ function App() {
       <Router>
         <Navbar/>
       <Switch>
-        <Route path= "/pastries">
-          <PastryContainer storeName='Vic Pastries'/>
+        <Route exact path= "/pastries">
+          <PastryContainer storeName='Vics Pastries'/>
         </Route>
 
-        <Route path="/about">
+        <Route exact path="/about">
           <About/>
         </Route> 
 
-        <Route path="/reviews">
+        <Route exact path="/reviews">
           <ReviewForm/>
         </Route>
       </Switch>

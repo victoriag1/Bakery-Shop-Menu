@@ -12,6 +12,7 @@ const style= {
     backgroundColor:"#f5cac3",
     fontWeight:"bold",
     gap:"2rem",
+    
 }
 
 function Navbar() {
@@ -20,7 +21,7 @@ function Navbar() {
         <NavLink
         activeStyle={{
             fontWeight:"bolder",
-            color: "black"
+            color: "white"
         }
         }
             exact 
@@ -30,7 +31,7 @@ function Navbar() {
         <NavLink
         activeStyle={{
             fontWeight:"bolder",
-            color: "black"
+            color: "white"
         }
         }
             exact 
@@ -40,7 +41,7 @@ function Navbar() {
         <NavLink
         activeStyle={{
             fontWeight:"bolder",
-            color: "black"
+            color: "white"
         }
         }
             exact 

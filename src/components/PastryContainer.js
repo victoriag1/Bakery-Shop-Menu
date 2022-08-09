@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import PastryList from './PastryList'
+import './PastryContainer.css'
 
 // in this pastry container in my home route page, I am making a GET request to display all
 // my pastries with their price on the home page. This is strictly where I am making that
@@ -17,8 +18,9 @@ fetch("http://localhost:3000/pastries")
 
 
   return (
-    <div>
-       <h1>{storeName}</h1>
+    <div> 
+       <h1 className='storeName'>{storeName}</h1> <br></br>
+       <h1 className='menu'>Menu</h1> <br></br>
         <PastryList pastries={pastries} storeName={storeName}/>
         
         

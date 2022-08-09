@@ -8,10 +8,9 @@ import PastryCard from './PastryCard'
 // we are passing down the pastrycards prop to our home page. 
  function PastryList({pastries}) {
   const pastryCards= pastries.map(pastry=> <PastryCard pastry={pastry} key={pastry.id}/>)
- // const pastryNames=pastries.map(pastry => )
+ 
   return (
     <div style={{width:"500px", margin:"auto" }}>
-      <h2>Menu</h2>
        <div style={{display: "flex", flexWrap:"wrap"}}>{pastryCards}</div> 
         
     </div>

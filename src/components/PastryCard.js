@@ -19,9 +19,8 @@ function PastryCard({pastry}) {
           {pastry.name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {pastry.price}
-        </Typography>
-          <button size="small" color="primary">Add to Cart</button>
+          {pastry.price}</Typography>
+    
         </CardContent>
       
       
