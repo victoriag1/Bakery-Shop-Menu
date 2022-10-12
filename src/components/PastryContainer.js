@@ -2,13 +2,10 @@ import React, {useEffect, useState} from 'react'
 import PastryList from './PastryList'
 import './PastryContainer.css'
 
-// in this pastry container in my home route page, I am making a GET request to display all
-// my pastries with their price on the home page. This is strictly where I am making that
-// GET request as a parent component and passing down state variables as props to pastry list
-// which is a child component. 
-function PastryContainer({storeName}) {
 
-const [pastries, setPastries]= useState([])
+function PastryContainer({storeName}) {
+  const [pastries, setPastries]= useState([])
+
 
 useEffect(() => {
 fetch("http://localhost:3000/pastries")
@@ -22,9 +19,6 @@ fetch("http://localhost:3000/pastries")
        <h1 className='storeName'>{storeName}</h1> <br></br>
        <h1 className='menu'>Menu</h1> <br></br>
         <PastryList pastries={pastries} storeName={storeName}/>
-        
-        
     </div>
-  )
-}
+  )}
 export default PastryContainer

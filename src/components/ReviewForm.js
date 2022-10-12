@@ -3,12 +3,14 @@ import {useState, useEffect} from 'react'
 import './ReviewForm.css'
 
 function ReviewForm() {
-const [name, setName]= useState('') // content of the name
+const [name, setName]= useState('') // 
 const [review, setReview]= useState('') //content of review
 const [reviews, setReviews]= useState([]) //1.objects of existing reviews + new review
+
 //useEffect
 const displayReviews=()=>reviews.map((reviews)=> 
  <p key={reviews.name}>{reviews.name}<br></br>{reviews.review}</p>)
+ 
 useEffect(()=>{
 fetch("http://localhost:3000/Reviews")
   .then((res)=> res.json())
