@@ -18,6 +18,10 @@ fetch("http://localhost:3000/pastries")
     <div> 
        <h1 className='storeName'>{storeName}</h1> <br></br>
        <h1 className='menu'>Menu</h1> <br></br>
+       <form>
+        <input></input>
+        <button>search</button>
+       </form>
         <PastryList pastries={pastries} storeName={storeName}/>
     </div>
   )}
