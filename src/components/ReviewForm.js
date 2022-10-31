@@ -8,7 +8,6 @@ const [review, setReview]= useState('') //content of review
 const [reviews, setReviews]= useState([]) //1.objects of existing reviews + new review
 
 //useEffect
-// will exaplain later
 const displayReviews=()=>reviews.map((review)=> 
  <p key={review.name}>{review.name}<br></br>{review.review}</p>)
  
